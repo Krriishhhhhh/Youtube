@@ -2,9 +2,12 @@ const SeachBar = () => {
   return (
     <div className="m-2  w-96 flex rounded-3xl border  border-gray-400 p-0.5  text-gray-900">
       <input
-        className="w-full bg-slate-950 outline-none border-none p-1 placeholder-gray-500  "
+        className="w-full bg-slate-950 outline-none border-none p-1 placeholder-gray-500 text-slate-100  "
         placeholder="Search"
-      ></input>
+        id="search"
+      >
+
+      </input>
       <div className="pr-2 pt-2">
         <svg
           className="w-4 h-4 text-gray-500 dark:text-gray-400"
